@@ -1,6 +1,6 @@
 # Understanding Robust Learning through the Lens of Representation Similarities
 
-Code for our recent work where we aim to better understand the internal representations of robust neural networks. Robust networks, which are trained to defend against adversarial inputs, exhibit strikingly different fundamental characteristics (such as poor generalization, overfitting, etc.) than non-robust networks. Using representation similarity metrics, mainly centered kernel alignment ([CKA](https://arxiv.org/abs/1905.00414)), we examine how internal representations in robust networks fundamentally differs from non-robust ones. 
+Code for our recent work where we aim to better understand the internal representations of robust neural networks. Robust networks, which are trained to defend against adversarial inputs, exhibit strikingly different fundamental characteristics (such as poor generalization, overfitting, etc.) than non-robust networks. Using representation similarity metrics, mainly centered kernel alignment ([CKA](https://arxiv.org/abs/1905.00414)), we examine how internal representations in robust networks fundamentally differ from non-robust ones. 
 
 
 ## Getting started
@@ -30,7 +30,7 @@ Which will generate the following plot that displays results from all three afor
 ![robust_representation_similarity](./results/cka_plot.png)
 
 ## Custom usage
-To adapt to your use case, first add your model to existing models (if it's not already available) and provide the checkpoint through command line flags. Once can easily download checkpoints of most robust models using [RobustBench](https://robustbench.github.io/). This might be the only change you will need to make to start analyzing CKA on your models.
+To adapt to your use case, first add your model to existing models (if it's not already available) and provide the checkpoint through command line flags. One can easily download checkpoints of most robust models using [RobustBench](https://robustbench.github.io/). This might be the only change you will need to make to start analyzing CKA for your models.
 
 ## Reference
 If you find this work helpful, consider citing it. 
