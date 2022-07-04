@@ -39,7 +39,7 @@ If you find this work helpful, consider citing it.
 @inproceedings{cianfarani2022RobustRS,
     title={Understanding Robust Learning through the Lens of Representation Similarities},
     author={Christian Cianfarani and Arjun Nitin Bhagoji and Vikash Sehwag and Ben Zhao and Prateek Mittal},
-    booktitle={Arxiv},
+    booktitle={https://arxiv.org/abs/2206.09868},
     year={2022}
 }
 ```
